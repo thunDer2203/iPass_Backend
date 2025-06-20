@@ -1,12 +1,42 @@
-# React + Vite
+# 🔐 iPass – A Simple Password Manager (React + Node.js)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **iPass**, your minimal and efficient password manager built using **React** on the frontend and **Node.js** for the backend (REST API). With iPass, you can securely store, edit, delete, and copy your website credentials – all from a clean and intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📝 Add new credentials (Website, Username, Password)
+- 📋 Copy any field to clipboard with a single click
+- 👁️ Toggle password visibility
+- 🗑️ Delete or ✏️ edit saved entries
+- 🌐 Persistent storage with REST API backend
+- 🎉 Toast notifications for user feedback
+- 💅 Beautiful UI with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🖥️ Tech Stack
+
+**Frontend:**
+- React (Hooks)
+- Tailwind CSS
+- React Icons
+- React Toastify
+
+**Backend:**
+- Node.js
+- Express.js
+- File-based or in-memory storage (for demo)
+
+---
+
+## 📦 Installation
+
+### 🔧 Prerequisites
+- Node.js & npm installed
+- Git (optional but recommended)
+
+---
+
+
